@@ -19,5 +19,6 @@ RUN set -ex && \
       dnsutils \
       rsync \
       vim \
+      pgbackrest \
       postgresql-client-10 && \
     apt-get clean 
